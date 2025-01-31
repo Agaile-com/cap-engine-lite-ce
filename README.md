@@ -1,3 +1,77 @@
+# CAP Engine Lite Community Edition
+
+CAP Engine Lite CE is a lightweight version of the Core AI Platform (CAP) Engine, designed for personal and research use. It provides essential AI agent orchestration capabilities using LangGraph, optimized for deployment on the Langsmith Platform.
+
+## Architecture Overview
+
+<img src="./static/LangGraph-ECS-Architecture.png" alt="CAP Engine Lite Architecture" width="100%" />
+
+## Prerequisites
+
+- [Cursor.com (AI code editor)](https://www.cursor.com/)
+- [Langsmith Platform Account](https://smith.langchain.com/)
+- Git
+- Shell environment (Bash/Zsh)
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Agaile-com/cap-engine-lite-ce.git
+cd cap-engine-lite-ce
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your Langsmith API keys and other configurations
+```
+
+## Related CAP Components
+
+For a complete CAP setup, you may want to explore:
+
+### 1. CAP Cloud CE
+The main cloud infrastructure component.
+- Repository: [CAP CLOUD CE](https://github.com/Agaile-com/cap-cloud-ce)
+
+### 2. CAP Ingestion CE
+The data ingestion service.
+- Repository: [CAP INGESTION CE](https://github.com/Agaile-com/cap-ingestion-ce)
+
+### 3. CAP Frontend CE
+The user interface component.
+- Repository: [CAP FRONTEND CE](https://github.com/Agaile-com/cap-frontend-ce)
+
+## Documentation
+Find detailed guides in the `/docs` directory:
+- Setup Guide
+- Usage Instructions
+- API Reference
+- Contributing Guidelines
+
+## Community & Support
+- 🐛 [GitHub Issues](https://github.com/Agaile-com/cap-engine-lite-ce/issues) - Bug reports & feature requests
+- 💬 [Discussions](https://github.com/Agaile-com/cap-engine-lite-ce/discussions) - Questions & community support
+- 📚 [Wiki](https://github.com/Agaile-com/cap-engine-lite-ce/wiki) - Additional documentation
+
+## Contributing
+We welcome community contributions! See our [Contributing Guide](CONTRIBUTING.md) for:
+- Code of Conduct
+- Development Process
+- Pull Request Guidelines
+
+## Related Resources
+- [CAP Documentation](https://docs.cap-cloud.com)
+- [Community Plugins](https://plugins.cap-cloud.com)
+
+## Status
+[![Engine Lite CE CI](https://github.com/Agaile-com/cap-engine-lite-ce/workflows/Engine%20Lite%20CE%20CI/badge.svg)](https://github.com/Agaile-com/cap-engine-lite-ce/actions)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 # LangGraph Retrieval Chat Bot Template
 
 [![CI](https://github.com/langchain-ai/retrieval-agent-template/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/langchain-ai/retrieval-agent-template/actions/workflows/unit-tests.yml)
